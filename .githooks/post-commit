@@ -1,0 +1,5 @@
+#!/bin/sh
+# 每次在本機 git commit 成功後，自動推送到 origin（需先執行過 core.hooksPath 設定，見 README）
+branch=$(git symbolic-ref --short HEAD 2>/dev/null) || exit 0
+[ "$branch" = "main" ] || exit 0
+git push origin main

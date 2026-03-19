@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>詠慈佛像雕刻 — 傳承匠心，雕琢神韻</title>
+  <meta name="description" content="詠慈佛像雕刻，專業神佛像雕刻工藝，傳承百年匠心技藝，提供客製化佛像、神像雕刻服務。">
+  <link rel="icon" href="image/詠慈.png" type="image/png">
+  <link rel="apple-touch-icon" href="image/詠慈.png">
+  <link rel="canonical" href="https://yongciart.com/">
+  <meta property="og:site_name" content="詠慈佛像雕刻">
+  <meta property="og:url" content="https://yongciart.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="詠慈佛像雕刻 — 傳承匠心，雕琢神韻">
+  <meta property="og:description" content="詠慈佛像雕刻，專業神佛像雕刻工藝，傳承百年匠心技藝，提供客製化佛像、神像雕刻服務。">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="詠慈佛像雕刻 — 傳承匠心，雕琢神韻">
+  <meta name="twitter:description" content="詠慈佛像雕刻，專業神佛像雕刻工藝，傳承百年匠心技藝，提供客製化佛像、神像雕刻服務。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --gold: #b8860b;
+      --gold-light: #d4a843;
+      --gold-pale: #f5e6c4;
+      --dark: #1a1410;
+      --dark-warm: #2a2018;
+      --cream: #faf6f0;
+      --cream-dark: #f0e8da;
+      --text: #3a3028;
+      --text-light: #6b5e50;
+      --red-accent: #8b2500;
+      --shadow: 0 4px 30px rgba(26, 20, 16, 0.12);
+      --shadow-lg: 0 12px 50px rgba(26, 20, 16, 0.18);
+      --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      color: var(--text);
+      background: var(--cream);
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Noto Serif TC', serif;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 0 2rem;
+      transition: background var(--transition), box-shadow var(--transition), padding var(--transition);
+    }
+    .navbar.scrolled {
+      background: rgba(26, 20, 16, 0.95);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    }
+    .navbar-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 80px;
+    }
+    .navbar.scrolled .navbar-inner { height: 64px; }
+    .logo {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.5rem; font-weight: 900;
+      color: var(--gold-light);
+      letter-spacing: 0.15em;
+      display: flex; align-items: center; gap: 0.6rem;
+    }
+    .logo-icon {
+      width: 36px; height: 36px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+    .nav-links { display: flex; gap: 2rem; align-items: center; }
+    .nav-links a {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.95rem; font-weight: 400;
+      letter-spacing: 0.08em;
+      position: relative; padding: 0.3rem 0;
+      transition: color var(--transition);
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: 0; left: 0;
+      width: 0; height: 1.5px; background: var(--gold-light);
+      transition: width var(--transition);
+    }
+    .nav-links a:hover { color: var(--gold-light); }
+    .nav-links a:hover::after { width: 100%; }
+
+    .mobile-toggle {
+      display: none; background: none; border: none; cursor: pointer;
+      flex-direction: column; gap: 5px; padding: 4px;
+    }
+    .mobile-toggle span {
+      display: block; width: 24px; height: 2px; background: var(--gold-light);
+      transition: var(--transition);
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--dark);
+      overflow: hidden;
+    }
+    /* 封面圖：將檔案命名為 cover.jpg 放在 image/（若用 .png / .webp 請改下方 url） */
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-color: var(--dark);
+      background-image:
+        linear-gradient(180deg, rgba(26, 20, 16, 0.78) 0%, rgba(26, 20, 16, 0.45) 42%, rgba(26, 20, 16, 0.88) 100%),
+        radial-gradient(ellipse at 30% 50%, rgba(184, 134, 11, 0.1) 0%, transparent 55%),
+        radial-gradient(ellipse at 70% 30%, rgba(139, 37, 0, 0.06) 0%, transparent 45%),
+        url("image/cover.jpg");
+      background-size: cover, cover, cover, cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .hero-pattern {
+      position: absolute; inset: 0; opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4a843' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      text-align: center; padding: 2rem;
+      max-width: 800px;
+    }
+    .hero-subtitle {
+      font-size: 0.95rem; letter-spacing: 0.35em;
+      color: var(--gold-light); text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      opacity: 0; transform: translateY(20px);
+      animation: fadeUp 1s 0.3s forwards;
+    }
+    .hero-title {
+      font-size: clamp(2.8rem, 6vw, 4.5rem);
+      color: #fff; font-weight: 900;
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+      opacity: 0; transform: translateY(30px);
+      animation: fadeUp 1s 0.5s forwards;
+    }
+    /* 「詠慈」：提亮金色並加深色外暈，避免與 Hero 暖色底圖糊在一起 */
+    .hero-title .highlight {
+      display: inline-block;
+      background: linear-gradient(145deg, #fff9ec 0%, #f5d978 38%, #c9a227 88%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.88))
+              drop-shadow(0 0 14px rgba(0, 0, 0, 0.45));
+    }
+    .hero-desc {
+      font-size: 1.15rem; color: rgba(255,255,255,0.6);
+      max-width: 540px; margin: 0 auto 2.5rem;
+      line-height: 2;
+      opacity: 0; transform: translateY(20px);
+      animation: fadeUp 1s 0.7s forwards;
+    }
+    .hero-cta {
+      display: inline-flex; align-items: center; gap: 0.8rem;
+      padding: 1rem 2.5rem;
+      border: 1.5px solid var(--gold-light);
+      color: var(--gold-light);
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1rem; letter-spacing: 0.15em;
+      transition: var(--transition);
+      opacity: 0; transform: translateY(20px);
+      animation: fadeUp 1s 0.9s forwards;
+    }
+    .hero-cta:hover {
+      background: var(--gold-light); color: var(--dark);
+    }
+    .hero-cta svg {
+      width: 18px; height: 18px;
+      transition: transform var(--transition);
+    }
+    .hero-cta:hover svg { transform: translateX(4px); }
+
+    .hero-scroll {
+      position: absolute; bottom: 2.5rem; left: 50%;
+      transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+      color: rgba(255,255,255,0.35);
+      font-size: 0.75rem; letter-spacing: 0.2em;
+      animation: float 2.5s ease-in-out infinite;
+    }
+    .hero-scroll-line {
+      width: 1px; height: 40px;
+      background: linear-gradient(to bottom, var(--gold-light), transparent);
+    }
+
+    /* ===== 圖片載入轉圈（共用） ===== */
+    @keyframes media-spin {
+      to { transform: rotate(360deg); }
+    }
+    .media-spinner {
+      width: 40px; height: 40px;
+      border: 3px solid rgba(212, 168, 67, 0.2);
+      border-top-color: var(--gold-light);
+      border-radius: 50%;
+      animation: media-spin 0.75s linear infinite;
+    }
+    .media-spinner-wrap {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      z-index: 2;
+      background: linear-gradient(135deg, #2a2018, #3a2e22);
+      transition: opacity 0.45s ease, visibility 0.45s ease;
+    }
+    .is-loaded .media-spinner-wrap {
+      opacity: 0; visibility: hidden; pointer-events: none;
+    }
+
+    .hero-bg-loader {
+      position: absolute; inset: 0; z-index: 1;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--dark);
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+    .hero.hero-bg-ready .hero-bg-loader {
+      opacity: 0; visibility: hidden; pointer-events: none;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(-8px); }
+    }
+
+    /* ===== SECTION COMMON ===== */
+    .section { padding: 6rem 2rem; }
+    .section-header {
+      text-align: center; margin-bottom: 4rem;
+    }
+    .section-label {
+      font-size: 0.8rem; letter-spacing: 0.3em;
+      color: var(--gold); text-transform: uppercase;
+      margin-bottom: 0.8rem;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      color: var(--dark); margin-bottom: 1rem;
+    }
+    .section-line {
+      width: 50px; height: 2px; margin: 0 auto;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+
+    /* ===== ABOUT ===== */
+    .about { background: var(--cream); }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 4rem; align-items: center;
+    }
+    .about-image {
+      position: relative; aspect-ratio: 4/5;
+      background: var(--dark-warm);
+      overflow: hidden; border-radius: 2px;
+    }
+    .about-image-placeholder {
+      position: relative;
+      width: 100%; height: 100%;
+      background: var(--dark-warm);
+    }
+    .about-photo {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .about-image-placeholder.is-loaded .about-photo { opacity: 1; }
+    .about-photo-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 1rem 1.25rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      color: rgba(255, 255, 255, 0.75);
+      background: linear-gradient(to top, rgba(26, 20, 16, 0.85), transparent);
+      z-index: 3; pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.45s ease;
+    }
+    .about-image-placeholder.is-loaded .about-photo-caption { opacity: 1; }
+    .about-image-frame {
+      position: absolute; top: -12px; left: -12px;
+      width: 120px; height: 120px;
+      border-top: 2px solid var(--gold-light);
+      border-left: 2px solid var(--gold-light);
+    }
+    .about-content h3 {
+      font-size: 1.6rem; margin-bottom: 1.2rem;
+      color: var(--dark);
+    }
+    .about-content h3 span { color: var(--gold); }
+    .about-content p {
+      color: var(--text-light);
+      margin-bottom: 1rem; font-size: 1rem;
+    }
+    .about-stats {
+      display: flex; gap: 2.5rem; margin-top: 2rem;
+      padding-top: 2rem; border-top: 1px solid var(--cream-dark);
+    }
+    .about-stat-number {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 2.2rem; font-weight: 700;
+      color: var(--gold); line-height: 1;
+    }
+    .about-stat-label {
+      font-size: 0.85rem; color: var(--text-light);
+      margin-top: 0.3rem;
+    }
+
+    /* ===== SERVICES ===== */
+    .services { background: var(--dark); color: #fff; }
+    .services .section-title { color: #fff; }
+    .services .section-label { color: var(--gold-light); }
+    .services-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .service-card {
+      padding: 2.5rem 2rem;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 2px;
+      transition: var(--transition);
+      position: relative; overflow: hidden;
+    }
+    .service-card::before {
+      content: ''; position: absolute; top: 0; left: 0;
+      width: 100%; height: 2px;
+      background: linear-gradient(90deg, var(--gold-light), transparent);
+      opacity: 0; transition: opacity var(--transition);
+    }
+    .service-card:hover { background: rgba(255,255,255,0.06); transform: translateY(-4px); }
+    .service-card:hover::before { opacity: 1; }
+    .service-icon {
+      font-size: 2.2rem; margin-bottom: 1.5rem;
+      display: block;
+    }
+    .service-card h3 {
+      font-size: 1.25rem; margin-bottom: 0.8rem;
+      color: var(--gold-pale);
+    }
+    .service-card p {
+      font-size: 0.95rem; color: rgba(255,255,255,0.5);
+      line-height: 1.8;
+    }
+
+    /* ===== GALLERY ===== */
+    .gallery { background: var(--cream); }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 280px;
+      gap: 1rem;
+    }
+    .gallery-item {
+      position: relative; overflow: hidden;
+      border-radius: 2px; cursor: pointer;
+      background: var(--dark-warm);
+    }
+    .gallery-item-inner {
+      position: relative;
+      width: 100%; height: 100%;
+      background: linear-gradient(135deg, #2a2018, #3a2e22);
+      transition: transform var(--transition);
+    }
+    .gallery-item:hover .gallery-item-inner { transform: scale(1.05); }
+    .gallery-photo {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.45s ease;
+      z-index: 1;
+    }
+    .gallery-item-inner.is-loaded .gallery-photo { opacity: 1; }
+    .gallery-overlay {
+      position: absolute; inset: 0; z-index: 3;
+      background: linear-gradient(to top, rgba(26,20,16,0.8), transparent 60%);
+      display: flex; align-items: flex-end;
+      padding: 1.5rem;
+      opacity: 0; transition: opacity var(--transition);
+      pointer-events: none;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-overlay span {
+      color: #fff; font-family: 'Noto Serif TC', serif;
+      font-size: 1rem; letter-spacing: 0.1em;
+    }
+
+    /* ===== PROCESS ===== */
+    .process { background: var(--cream-dark); }
+    .process-timeline {
+      display: grid; grid-template-columns: repeat(5, 1fr);
+      gap: 1.5rem; position: relative;
+    }
+    .process-timeline::before {
+      content: ''; position: absolute;
+      top: 40px; left: 10%; right: 10%;
+      height: 1px; background: var(--gold-light); opacity: 0.3;
+    }
+    .process-step {
+      text-align: center; position: relative;
+    }
+    .process-number {
+      width: 80px; height: 80px; margin: 0 auto 1.2rem;
+      border: 1.5px solid var(--gold-light);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.5rem; color: var(--gold);
+      background: var(--cream-dark);
+      position: relative; z-index: 1;
+      transition: var(--transition);
+    }
+    .process-step:hover .process-number {
+      background: var(--gold); color: #fff;
+    }
+    .process-step h4 {
+      font-size: 1.05rem; margin-bottom: 0.4rem;
+      color: var(--dark);
+    }
+    .process-step p {
+      font-size: 0.85rem; color: var(--text-light);
+      line-height: 1.7;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+    .testimonials { background: var(--dark); color: #fff; }
+    .testimonials .section-title { color: #fff; }
+    .testimonials .section-label { color: var(--gold-light); }
+    .testimonial-slider { max-width: 700px; margin: 0 auto; text-align: center; position: relative; }
+    .testimonial-item { display: none; }
+    .testimonial-item.active { display: block; }
+    .testimonial-quote {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.2rem; line-height: 2;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    .testimonial-quote::before {
+      content: '\201C';
+      font-size: 4rem; color: var(--gold-light); opacity: 0.3;
+      position: absolute; top: -1.5rem; left: -0.5rem;
+      font-family: Georgia, serif;
+    }
+    .testimonial-author {
+      font-size: 1rem; color: var(--gold-light);
+      letter-spacing: 0.1em;
+    }
+    .testimonial-role {
+      font-size: 0.85rem; color: rgba(255,255,255,0.4);
+      margin-top: 0.3rem;
+    }
+    .testimonial-dots {
+      display: flex; justify-content: center; gap: 0.8rem;
+      margin-top: 2.5rem;
+    }
+    .testimonial-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: rgba(255,255,255,0.2);
+      cursor: pointer; border: none;
+      transition: var(--transition);
+    }
+    .testimonial-dot.active { background: var(--gold-light); transform: scale(1.3); }
+
+    /* ===== CONTACT ===== */
+    .contact { background: var(--cream); }
+    .contact-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+    .contact-info h3 {
+      font-size: 1.5rem; margin-bottom: 1rem; color: var(--dark);
+    }
+    .contact-info > p {
+      color: var(--text-light); margin-bottom: 2rem;
+    }
+    .contact-detail {
+      display: flex; gap: 1rem; margin-bottom: 1.5rem;
+      align-items: flex-start;
+    }
+    .contact-detail-icon {
+      width: 44px; height: 44px; flex-shrink: 0;
+      background: var(--cream-dark);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold); font-size: 1.1rem;
+    }
+    .contact-detail-text h4 {
+      font-size: 0.95rem; color: var(--dark); margin-bottom: 0.15rem;
+    }
+    .contact-detail-text p {
+      font-size: 0.9rem; color: var(--text-light);
+    }
+    .contact-detail-text a.contact-link {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba(61, 58, 54, 0.25);
+      transition: color var(--transition), text-decoration-color var(--transition);
+    }
+    .contact-detail-text a.contact-link:hover {
+      color: var(--gold);
+      text-decoration-color: var(--gold);
+    }
+    .contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
+    .form-row { display: flex; gap: 1.2rem; }
+    .form-group { flex: 1; display: flex; flex-direction: column; }
+    .form-group label {
+      font-size: 0.85rem; color: var(--text-light);
+      margin-bottom: 0.4rem; letter-spacing: 0.05em;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--cream-dark);
+      background: #fff;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 0.95rem; color: var(--text);
+      border-radius: 2px;
+      transition: border-color var(--transition);
+      outline: none;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus { border-color: var(--gold); }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-submit {
+      align-self: flex-start;
+      padding: 1rem 3rem;
+      background: var(--dark);
+      color: var(--gold-light);
+      border: none; cursor: pointer;
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1rem; letter-spacing: 0.15em;
+      transition: var(--transition);
+    }
+    .form-submit:hover { background: var(--gold); color: #fff; }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--dark); color: rgba(255,255,255,0.4);
+      padding: 3rem 2rem 1.5rem;
+    }
+    .footer-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 1rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer-logo {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.2rem; font-weight: 700;
+      color: var(--gold-light);
+      letter-spacing: 0.1em;
+      display: flex; align-items: center; gap: 0.5rem;
+    }
+    .footer-logo-icon {
+      width: 28px; height: 28px;
+      object-fit: contain;
+    }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a {
+      font-size: 0.85rem;
+      transition: color var(--transition);
+    }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-bottom {
+      max-width: 1200px; margin: 1.5rem auto 0;
+      text-align: center; font-size: 0.8rem;
+    }
+
+    /* ===== SCROLL ANIMATIONS ===== */
+    .reveal {
+      opacity: 0; transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .reveal.visible {
+      opacity: 1; transform: translateY(0);
+    }
+
+    /* ===== MOBILE RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-timeline { grid-template-columns: repeat(3, 1fr); }
+      .process-timeline::before { display: none; }
+      .gallery-grid { grid-auto-rows: 220px; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex; flex-direction: column;
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(26, 20, 16, 0.98);
+        padding: 1.5rem 2rem; gap: 1rem;
+      }
+      .mobile-toggle { display: flex; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .services-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-grid .gallery-item { min-height: 200px; }
+      .process-timeline { grid-template-columns: repeat(2, 1fr); }
+      .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .form-row { flex-direction: column; }
+      .hero-title { letter-spacing: 0.05em; }
+      .section { padding: 4rem 1.5rem; }
+    }
+
+    @media (max-width: 480px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+      .process-timeline { grid-template-columns: 1fr; }
+      .about-stats { flex-direction: column; gap: 1.5rem; }
+      .hero-desc { font-size: 1rem; }
+    }
+
+    /* ===== BACK TO TOP ===== */
+    .back-to-top {
+      position: fixed; bottom: 2rem; right: 2rem;
+      width: 48px; height: 48px;
+      background: var(--dark); color: var(--gold-light);
+      border: 1px solid var(--gold-light);
+      border-radius: 50%; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      opacity: 0; visibility: hidden;
+      transition: var(--transition);
+      z-index: 999;
+    }
+    .back-to-top.visible { opacity: 1; visibility: visible; }
+    .back-to-top:hover { background: var(--gold); color: #fff; border-color: var(--gold); }
+
+    /* ===== LIGHTBOX ===== */
+    .lightbox {
+      position: fixed; inset: 0; z-index: 2000;
+      background: rgba(0,0,0,0.92);
+      display: none; align-items: center; justify-content: center;
+      padding: 2rem; cursor: pointer;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox-content {
+      max-width: 90vw; max-height: 90vh;
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; color: #fff;
+    }
+    .lightbox-img {
+      max-width: 100%; max-height: 72vh;
+      object-fit: contain;
+      border-radius: 2px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+      margin-bottom: 1.2rem;
+      opacity: 0;
+      transition: opacity 0.35s ease;
+    }
+    .lightbox-img.loaded { opacity: 1; }
+    .lightbox-spinner {
+      width: 44px; height: 44px;
+      border: 3px solid rgba(212, 168, 67, 0.2);
+      border-top-color: var(--gold-light);
+      border-radius: 50%;
+      animation: media-spin 0.75s linear infinite;
+      margin-bottom: 1.2rem;
+    }
+    .lightbox-spinner.hidden { display: none; }
+    .lightbox-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.5rem; margin-bottom: 0.5rem;
+      color: var(--gold-pale);
+    }
+    .lightbox-desc { font-size: 0.95rem; color: rgba(255,255,255,0.5); }
+    .lightbox-close {
+      position: absolute; top: 2rem; right: 2rem;
+      background: none; border: none; color: #fff;
+      font-size: 1.8rem; cursor: pointer;
+      opacity: 0.5; transition: opacity var(--transition);
+    }
+    .lightbox-close:hover { opacity: 1; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#hero" class="logo">
+        <img src="image/詠慈.png" alt="詠慈 LOGO" class="logo-icon">
+        詠慈佛像雕刻
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#services">服務項目</a></li>
+        <li><a href="#gallery">作品展示</a></li>
+        <li><a href="#process">製作工序</a></li>
+        <li><a href="#testimonials">客戶評價</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-bg-loader" id="heroBgLoader" role="status" aria-live="polite" aria-label="背景圖載入中">
+      <div class="media-spinner" aria-hidden="true"></div>
+    </div>
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">傳承匠心 · 雕琢神韻</p>
+      <h1 class="hero-title">
+        <span class="highlight">詠慈</span>佛像雕刻
+      </h1>
+      <p class="hero-desc">
+        以虔誠之心，承古法之技，精雕細琢每一尊神佛聖像。<br>
+        數十載匠心傳承，讓莊嚴法相守護您的心靈。
+      </p>
+      <a href="#contact" class="hero-cta">
+        諮詢訂製
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">關於詠慈</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-image-placeholder">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/about.jpg" alt="匠師雕刻實景" class="about-photo" loading="lazy" width="800" height="1000">
+            <p class="about-photo-caption">匠師雕刻實景</p>
+          </div>
+          <div class="about-image-frame"></div>
+        </div>
+        <div class="about-content reveal">
+          <h3>以刀為筆，以木為紙，<span>刻劃千年信仰</span></h3>
+          <p>
+            詠慈佛像雕刻創立至今，始終秉持「敬天法祖、精益求精」的理念，
+            專注於神佛像的傳統手工雕刻。我們的每一尊作品，皆由資深匠師以古法技藝，
+            一刀一鑿悉心雕琢而成。
+          </p>
+          <p>
+            從選材、開斧、粗坯、細修、磨光到最終的安金彩繪，
+            每一道工序都凝聚著匠師的虔誠與專注。我們深信，唯有以真摯之心，
+            方能雕刻出具有靈性與莊嚴法相的神佛聖像。
+          </p>
+          <div class="about-stats">
+            <div>
+              <div class="about-stat-number" data-count="30">0</div>
+              <div class="about-stat-label">年匠心傳承</div>
+            </div>
+            <div>
+              <div class="about-stat-number" data-count="3000">0</div>
+              <div class="about-stat-label">尊作品完成</div>
+            </div>
+            <div>
+              <div class="about-stat-number" data-count="100">0</div>
+              <div class="about-stat-label">間宮廟合作</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Services</p>
+        <h2 class="section-title">服務項目</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <span class="service-icon">🙏</span>
+          <h3>佛像雕刻</h3>
+          <p>釋迦牟尼佛、阿彌陀佛、藥師佛、觀世音菩薩等各式佛像，以傳統工法精心雕琢，法相莊嚴。</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-icon">⚔️</span>
+          <h3>神像雕刻</h3>
+          <p>媽祖、關聖帝君、玄天上帝、城隍爺、土地公等各式神明聖像，威儀赫赫、栩栩如生。</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-icon">✨</span>
+          <h3>安金彩繪</h3>
+          <p>採用傳統漆藝與純金箔，為神佛像施以精緻的安金、彩繪工藝，使聖像光彩奪目、金碧輝煌。</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-icon">🔧</span>
+          <h3>修復翻新</h3>
+          <p>針對年代久遠或受損的神佛像，提供專業的修復與翻新服務，還原聖像原有的莊嚴風貌。</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-icon">📐</span>
+          <h3>客製訂製</h3>
+          <p>依照您的需求與規格，量身打造專屬神佛像。從尺寸、材質到姿態，皆可與匠師詳細討論。</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-icon">🏛️</span>
+          <h3>宮廟工程</h3>
+          <p>承接宮廟神龕、佛龕設計製作，以及大型神佛像雕刻工程，打造莊嚴殊勝的神聖空間。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Portfolio</p>
+        <h2 class="section-title">作品展示</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item" data-title="媽祖聖像" data-desc="檜木雕刻 · 安金 · 高二尺二" data-icon="👑">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/馬祖.jpg" alt="媽祖聖像" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>媽祖聖像</span></div>
+        </div>
+        <div class="gallery-item" data-title="順風耳" data-desc="樟木雕刻 · 彩繪 · 陪祀將軍聖像" data-icon="👂">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/順風耳.jpg" alt="順風耳" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>順風耳</span></div>
+        </div>
+        <div class="gallery-item" data-title="千里眼" data-desc="樟木雕刻 · 彩繪 · 陪祀將軍聖像" data-icon="👁️">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/千里眼.jpg" alt="千里眼" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>千里眼</span></div>
+        </div>
+        <div class="gallery-item" data-title="哪吒太子" data-desc="樟木雕刻 · 彩繪 · 陪祀將軍聖像" data-icon="🔥">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/哪吒.jpg" alt="哪吒太子" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>哪吒太子</span></div>
+        </div>
+        <div class="gallery-item" data-title="太子聖像" data-desc="樟木雕刻 · 彩繪 · 武將神像" data-icon="🛡️">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/太子.jpg" alt="太子聖像" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>太子聖像</span></div>
+        </div>
+        <div class="gallery-item" data-title="溫府千歲手令" data-desc="法器雕製 · 木作工藝 · 宮廟供奉" data-icon="📜">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/手令.jpg" alt="溫府千歲手令" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>溫府千歲手令</span></div>
+        </div>
+        <div class="gallery-item" data-title="王府千歲" data-desc="樟木雕刻 · 彩繪 · 王爺神像" data-icon="🏮">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/王府千歲.jpg" alt="王府千歲" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>王府千歲</span></div>
+        </div>
+        <div class="gallery-item" data-title="皇母娘娘" data-desc="樟木雕刻 · 彩繪 · 宮廟供奉" data-icon="👑">
+          <div class="gallery-item-inner">
+            <div class="media-spinner-wrap" aria-hidden="true"><div class="media-spinner"></div></div>
+            <img src="image/皇母娘娘.jpg" alt="皇母娘娘" class="gallery-photo" loading="lazy" width="800" height="600">
+          </div>
+          <div class="gallery-overlay"><span>皇母娘娘</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Craftsmanship</p>
+        <h2 class="section-title">製作工序</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="process-timeline reveal">
+        <div class="process-step">
+          <div class="process-number">壹</div>
+          <h4>選材開斧</h4>
+          <p>嚴選上等樟木、檜木等良材，擇吉日舉行開斧儀式。</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">貳</div>
+          <h4>粗坯成形</h4>
+          <p>依照設計圖稿，以大型工具雕刻出佛像基本輪廓與比例。</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">參</div>
+          <h4>細部精修</h4>
+          <p>運用各式雕刻刀具，精雕五官、衣飾、手印等細節。</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">肆</div>
+          <h4>磨光打底</h4>
+          <p>反覆打磨至表面光滑細膩，施以天然漆底保護木質。</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">伍</div>
+          <h4>安金彩繪</h4>
+          <p>以純金箔安金或精緻彩繪，賦予佛像莊嚴金身法相。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Testimonials</p>
+        <h2 class="section-title">客戶評價</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-item active">
+          <div class="testimonial-quote">
+            詠慈師傅雕刻的媽祖聖像，法相莊嚴、慈眉善目，信眾們見了都讚嘆不已。從溝通到完工，每一個細節都非常用心，真正的匠心之作。
+          </div>
+          <div class="testimonial-author">主任委員</div>
+          <div class="testimonial-role">— 林園無極南天宮</div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-quote">
+            家中供奉的觀世音菩薩已有數十年歷史，經詠慈師傅修復後煥然一新，彩繪精緻、金身莊嚴，彷彿重獲新生。感恩師傅的精湛技藝。
+          </div>
+          <div class="testimonial-author">陳居士</div>
+          <div class="testimonial-role">— 私人佛堂</div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-quote">
+            我們寺院委託詠慈製作的三寶佛，每一尊都氣韻生動、莊嚴殊勝。師傅對傳統工法的堅持令人敬佩，是難得一見的佛像雕刻大師。
+          </div>
+          <div class="testimonial-author">陳居士</div>
+          <div class="testimonial-role">— 無名禪寺</div>
+        </div>
+        <div class="testimonial-dots">
+          <button class="testimonial-dot active" data-index="0" aria-label="評價 1"></button>
+          <button class="testimonial-dot" data-index="1" aria-label="評價 2"></button>
+          <button class="testimonial-dot" data-index="2" aria-label="評價 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">聯絡我們</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>歡迎蒞臨指教</h3>
+          <p>無論是訂製神佛像、修復翻新或任何相關諮詢，都歡迎與我們聯繫。我們將竭誠為您服務。</p>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            <div class="contact-detail-text">
+              <h4>工作室地址</h4>
+              <p><a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E9%8E%AE%E8%88%88%E6%BC%81%E8%A1%97138%E4%B9%8B9%E8%99%9F" target="_blank" rel="noopener noreferrer" class="contact-link">屏東縣東港鎮興漁街138之9號</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📞</div>
+            <div class="contact-detail-text">
+              <h4>聯絡電話</h4>
+              <p><a href="tel:+88688330282" class="contact-link">08-8330282</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉️</div>
+            <div class="contact-detail-text">
+              <h4>電子信箱</h4>
+              <p><a href="mailto:Service@yongciart.com" class="contact-link">Service@yongciart.com</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">🕐</div>
+            <div class="contact-detail-text">
+              <h4>營業時間</h4>
+              <p>週一至週六 09:00 – 18:00（週日預約制）</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">您的姓名</label>
+              <input type="text" id="name" name="name" placeholder="請輸入姓名" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">聯絡電話</label>
+              <input type="tel" id="phone" name="phone" placeholder="請輸入電話">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">電子信箱</label>
+            <input type="email" id="email" name="email" placeholder="請輸入 Email">
+          </div>
+          <div class="form-group">
+            <label for="service">諮詢項目</label>
+            <select id="service" name="service">
+              <option value="">請選擇服務項目</option>
+              <option value="buddha">佛像雕刻</option>
+              <option value="deity">神像雕刻</option>
+              <option value="gold">安金彩繪</option>
+              <option value="restore">修復翻新</option>
+              <option value="custom">客製訂製</option>
+              <option value="temple">宮廟工程</option>
+              <option value="other">其他諮詢</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">諮詢內容</label>
+            <textarea id="message" name="message" placeholder="請描述您的需求，如佛像種類、尺寸、材質等..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">送出諮詢</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo"><img src="image/詠慈.png" alt="詠慈 LOGO" class="footer-logo-icon"> 詠慈佛像雕刻</div>
+      <ul class="footer-links">
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#services">服務項目</a></li>
+        <li><a href="#gallery">作品展示</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 詠慈佛像雕刻工作室 版權所有 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="關閉">✕</button>
+    <div class="lightbox-content">
+      <div class="lightbox-spinner" id="lightboxSpinner"></div>
+      <img class="lightbox-img" id="lightboxImg" alt="">
+      <div class="lightbox-title"></div>
+      <div class="lightbox-desc"></div>
+    </div>
+  </div>
+
+  <script>
+    /* Navbar scroll effect */
+    const navbar = document.getElementById('navbar');
+    const backToTop = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY > 60;
+      navbar.classList.toggle('scrolled', scrolled);
+      backToTop.classList.toggle('visible', window.scrollY > 500);
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    /* Mobile menu */
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    /* Scroll reveal */
+    const reveals = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    reveals.forEach(el => revealObserver.observe(el));
+
+    /* Counter animation */
+    const counters = document.querySelectorAll('.about-stat-number');
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = parseInt(el.dataset.count);
+          const duration = 2000;
+          const start = performance.now();
+
+          function update(now) {
+            const elapsed = now - start;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            el.textContent = Math.floor(eased * target).toLocaleString() + '+';
+            if (progress < 1) requestAnimationFrame(update);
+          }
+          requestAnimationFrame(update);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    counters.forEach(el => counterObserver.observe(el));
+
+    /* 圖片載入完成後隱藏轉圈（檔案不存在時維持轉圈） */
+    document.querySelectorAll('.gallery-photo, .about-photo').forEach((img) => {
+      const wrap = img.closest('.gallery-item-inner, .about-image-placeholder');
+      if (!wrap) return;
+      const markLoaded = () => wrap.classList.add('is-loaded');
+      if (img.complete && img.naturalWidth > 0) markLoaded();
+      else img.addEventListener('load', markLoaded, { once: true });
+    });
+
+    /* Hero 背景 cover.jpg：載入或失敗後都關閉全屏轉圈 */
+    (function heroBgPreload() {
+      const hero = document.getElementById('hero');
+      if (!hero) return;
+      const probe = new Image();
+      const done = () => hero.classList.add('hero-bg-ready');
+      probe.onload = done;
+      probe.onerror = done;
+      probe.src = 'image/cover.jpg';
+    })();
+
+    /* Testimonial slider */
+    const testimonialItems = document.querySelectorAll('.testimonial-item');
+    const testimonialDots = document.querySelectorAll('.testimonial-dot');
+    let currentTestimonial = 0;
+    let testimonialTimer;
+
+    function showTestimonial(index) {
+      testimonialItems.forEach(item => item.classList.remove('active'));
+      testimonialDots.forEach(dot => dot.classList.remove('active'));
+      testimonialItems[index].classList.add('active');
+      testimonialDots[index].classList.add('active');
+      currentTestimonial = index;
+    }
+
+    function nextTestimonial() {
+      showTestimonial((currentTestimonial + 1) % testimonialItems.length);
+    }
+
+    testimonialDots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        clearInterval(testimonialTimer);
+        showTestimonial(parseInt(dot.dataset.index));
+        testimonialTimer = setInterval(nextTestimonial, 5000);
+      });
+    });
+
+    testimonialTimer = setInterval(nextTestimonial, 5000);
+
+    /* Gallery lightbox */
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.getElementById('lightbox');
+
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxSpinner = document.getElementById('lightboxSpinner');
+
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const title = item.dataset.title;
+        const desc = item.dataset.desc;
+        const photo = item.querySelector('.gallery-photo');
+
+        lightbox.querySelector('.lightbox-title').textContent = title;
+        lightbox.querySelector('.lightbox-desc').textContent = desc;
+
+        lightboxImg.classList.remove('loaded');
+        lightboxSpinner.classList.remove('hidden');
+
+        if (photo && photo.src) {
+          lightboxImg.alt = title;
+          lightboxImg.src = photo.src;
+          if (photo.complete && photo.naturalWidth > 0) {
+            lightboxImg.classList.add('loaded');
+            lightboxSpinner.classList.add('hidden');
+          } else {
+            lightboxImg.onload = () => {
+              lightboxImg.classList.add('loaded');
+              lightboxSpinner.classList.add('hidden');
+            };
+          }
+        }
+
+        lightbox.classList.add('open');
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      lightboxImg.src = '';
+      lightboxImg.classList.remove('loaded');
+    }
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    /* Contact form */
+    document.getElementById('contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = e.target.querySelector('.form-submit');
+      btn.textContent = '已送出，感謝您的諮詢！';
+      btn.style.background = '#2d6a30';
+      btn.style.color = '#fff';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = '送出諮詢';
+        btn.style.background = '';
+        btn.style.color = '';
+        btn.disabled = false;
+        e.target.reset();
+      }, 3000);
+    });
+
+    /* Smooth active nav highlight */
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY + 100;
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+        const link = document.querySelector(`.nav-links a[href="#${id}"]`);
+        if (link) {
+          if (scrollY >= top && scrollY < top + height) {
+            link.style.color = 'var(--gold-light)';
+          } else {
+            link.style.color = '';
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
